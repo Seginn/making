@@ -11,7 +11,7 @@ int main() {
 	cout << "ds\n";
 	print_menu();
 	
-
+	dfg
 	choice1(choice);
 
 } 
