@@ -12,7 +12,7 @@ int main() {
 	print_menu();
 	
 	
-	choice1(choice);
+	choice1();
 
 } 
 
