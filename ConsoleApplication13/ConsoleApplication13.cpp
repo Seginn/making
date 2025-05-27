@@ -7,21 +7,33 @@ using namespace std;
 
 
 
+int function(vector <string>, int cursor) {
+	
+
+}
+
+
+
 
 int main() {
-	while (1) {
-		int i = GetKeyCode();
-		if (i == VK_RETURN) return 0;
-	}
-	while (true) {
+	
+	/*while (true) {
 		print_menu();
-		int choice;
-		cout << "\nenter your choice: ", cin >> choice;
+		while (1) {
+			
+			int i = GetKeyCode();
+			if (i == VK_RETURN) return 0;
+		}
 	
-		choice1(choice);
-	}
+	}*/
+
+
+
+	/*switch()*/
 	
-	return 0
+
+
+	
 }  
 
 

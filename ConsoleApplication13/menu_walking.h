@@ -4,6 +4,8 @@
 #include "menu.h"
 #include "table.h"
 #include <vector>
+
+
 int GetKeyCode() {
 	if (GetAsyncKeyState(VK_UP) & 0x8000) return VK_UP;
 
@@ -12,8 +14,12 @@ int GetKeyCode() {
 	Sleep(100);
 
 }
+
 vector<string> main_menu = { "get all data", "get by id", "exit" };
 
 int print_menu(vector<string> menu, int cursor) {
+
+
+
 	return cursor;
 }
