@@ -4,7 +4,7 @@
 #include "menu.h"
 #include "table.h"
 #include <vector>
-
+#include <conio.h>
 
 int GetKeyCode() {
 	if (GetAsyncKeyState(VK_UP) & 0x8000) return VK_UP;
@@ -14,12 +14,15 @@ int GetKeyCode() {
 	Sleep(100);
 
 }
+vector<string> main_menu = { " add case in table\n", " print case in table/table\n", " find case in table\n"," delete case in table\n", " exit\n"};
 
-vector<string> main_menu = { "get all data", "get by id", "exit" };
+void print_menu(vector<string> menu) {
 
-int print_menu(vector<string> menu, int cursor) {
+	cout << main_menu[0] << endl;
+	cout << main_menu[1] << endl;
+	cout << main_menu[2] << endl;
+	cout << main_menu[3] << endl;
+	cout << main_menu[4] << endl;
 
 
-
-	return cursor;
 }
