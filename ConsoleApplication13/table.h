@@ -1,14 +1,17 @@
 #pragma once
 #include <iostream>
+#include <windows.h>
 #include <string>
 #include "menu.h"
+
+
 
 using namespace std;
 struct BIO {
 	string name;
 	string last_name;
 
-};
+}; 
 
 struct data1 {
 	string login;
@@ -28,6 +31,7 @@ struct list {
 };
 
 list* head = nullptr;
+
 void printg() {  
 	list* new_list = new list;
 	cout << "enter a new student: \n name: ";
@@ -53,6 +57,7 @@ void printg() {
 
 
 void add() {
+
 	list* temp = new list;
 
 	while (temp->next != nullptr) {

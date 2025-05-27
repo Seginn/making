@@ -24,6 +24,9 @@
     <ClInclude Include="table.h">
       <Filter>Исходные файлы\new</Filter>
     </ClInclude>
+    <ClInclude Include="menu_walking.h">
+      <Filter>Исходные файлы\new</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ConsoleApplication13.cpp">
